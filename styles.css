@@ -1,0 +1,31 @@
+footer{
+    padding: 2rem 0rem 2rem 0rem ;
+    background-color: rgb(75, 176, 253);
+    margin-top: 6rem;
+    text-align: center;
+    color: rgb(226, 237, 243);
+
+}
+
+.name{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media screen and (max-width: 491px){
+    footer  h5{
+        font-size: 1.2rem;
+    }
+    footer h4{
+        font-size: 1.5rem;
+    }
+    .header-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .clear-button{
+        width: 1.5rem;
+    }
+    h3 {
+        font-size: 1.7rem;
+    }
+}
